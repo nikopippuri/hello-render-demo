@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello world from Node! Where is Render?');
+  res.send('Im right here!');
 });
 
 app.listen(PORT, () => {
